@@ -636,7 +636,7 @@ function PlanView() {
     },
     {
       name: "Pro", price: "R$ 129", period: "/mês",
-      features: ["Pacientes ilimitados", "Evolução com IA ilimitada", "Múltiplos psicólogos", "API de integração", "Suporte prioritário 24h"],
+      features: ["Pacientes ilimitados", "Evolução com IA ilimitada", "Múltiplos psicólogos", "Suporte prioritário"],
       btn: "Fazer upgrade", variant: "upgrade", recommended: true,
     },
   ];

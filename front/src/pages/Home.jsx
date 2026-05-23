@@ -247,7 +247,7 @@ export default function Home() {
               <li>✓ Até 3 pacientes</li>
               <li>✓ Agenda integrada</li>
               <li>✓ Sessões ilimitadas</li>
-              <li>✓ Histórico básico</li>
+              <li>✓ Suporte por e-mail</li>
             </ul>
 
             <Link to="/register">
@@ -272,7 +272,7 @@ export default function Home() {
 
             <ul>
               <li>✓ Evolução com IA</li>
-              <li>✓ Até 30 pacientes</li>
+              <li>✓ Até 15 pacientes</li>
               <li>✓ Relatórios PDF</li>
               <li>✓ Agenda inteligente</li>
               <li>✓ Suporte prioritário</li>
@@ -298,9 +298,8 @@ export default function Home() {
               <li>✓ Pacientes ilimitados</li>
               <li>✓ IA ilimitada</li>
               <li>✓ Multi profissionais</li>
-              <li>✓ Relatórios avançados</li>
               <li>✓ Backup automático</li>
-              <li>✓ Suporte prioritário 24h</li>
+              <li>✓ Suporte prioritário</li>
             </ul>
 
             <Link to="/register">
