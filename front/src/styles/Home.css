@@ -675,6 +675,60 @@ a{
   border:1px solid #bfdbfe;
 }
 
+.clinic-plan{
+  border:1px solid rgba(85, 85, 247, 0.35);
+  background:linear-gradient(
+    145deg,
+    rgba(255,255,255,.95),
+    rgba(250,245,255,.9)
+  );
+  margin-top: 20px;
+}
+
+.clinic-plan::before{
+  background:linear-gradient(
+    135deg,
+    #523aed,
+    #8484fc
+  );
+}
+
+.clinic-plan h3{
+  color:#301c87;
+}
+
+.clinic-plan h1{
+  color:#3d3aed;
+}
+
+.clinic-plan button{
+  background:linear-gradient(
+    135deg,
+    #613aed,
+    #7355f7
+  );
+
+  box-shadow:
+    0 14px 30px rgba(79, 58, 237, 0.25);
+}
+
+.clinic-plan:hover{
+  border-color:#4c3aed;
+
+  box-shadow:
+    0 35px 70px rgba(124,58,237,.25);
+}
+
+.clinic-plan:hover button{
+  color:#4c3aed;
+}
+
+.clinic-plan .featured-badge{
+  background:#f3e8ff;
+  color:#5e3aed;
+  border-color:#d8b4fe;
+}
+
 /* CTA */
 
 .cta-card{

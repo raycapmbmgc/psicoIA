@@ -112,11 +112,11 @@ export default function Home() {
 
                   <div className="preview-patient">
                     <div className="patient-avatar">
-                      AS
+                      RR
                     </div>
 
                     <div>
-                      <h4>Ana Souza</h4>
+                      <h4>Rayca rafaelle</h4>
                       <p>Evolução gerada com IA</p>
                     </div>
                   </div>
@@ -266,7 +266,7 @@ export default function Home() {
 
             <h3>Plus</h3>
 
-            <h1>R$ 59</h1>
+            <h1>R$ 59,99</h1>
 
             <p>/mês</p>
 
@@ -290,7 +290,7 @@ export default function Home() {
           <div className="plan-card-home">
             <h3>Pro</h3>
 
-            <h1>R$ 129</h1>
+            <h1>R$ 129,99</h1>
 
             <p>/mês</p>
 
@@ -310,6 +310,36 @@ export default function Home() {
           </div>
 
         </div>
+
+        {/* CLÍNICA */}
+
+<div className="plan-card-home clinic-plan">
+  <div className="featured-badge">
+  EM BREVE
+</div>
+  <h3>Clínica</h3>
+
+  <h1>R$ 249,99</h1>
+
+  <p>/mês</p>
+
+  <ul>
+    <li>✓ Até 5 profissionais</li>
+    <li>✓ Pacientes ilimitados</li>
+    <li>✓ IA com uso avançado</li>
+    <li>✓ Gestão de equipe</li>
+    <li>✓ Controle de permissões</li>
+    <li>✓ Relatórios da clínica</li>
+    <li>✓ Backup automático</li>
+    <li>✓ Suporte prioritário</li>
+  </ul>
+
+  <Link to="/register">
+    <button>
+      Assinar Clínica
+    </button>
+  </Link>
+</div>
       </section>
 
       <footer className="footer">
@@ -334,9 +364,6 @@ export default function Home() {
             Cadastro
           </Link>
 
-          <Link to="/dashboard">
-            Dashboard
-          </Link>
         </div>
       </footer>
     </div>
